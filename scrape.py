@@ -133,6 +133,7 @@ def scrape(irnis):
             temp = i.text
             if temp.find('Phone:') != -1:
                 data['Phone No'] = ''.join(temp.split('\n')[1])
+                data['Phone No'] = temp
             if temp.find('Correspondent e-mail:') != -1:
                 data['Email'] = ''.join(temp.split('\n')[1])
                 break
