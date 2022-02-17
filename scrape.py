@@ -131,7 +131,7 @@ def scrape(irnis):
         info = correspondence.find('div.double.table')
         for i in info:
             temp = i.text
-            if temp.find('Phone:') != -1:
+            if temp.find('Phone:') != -1 and ("Representative") not in temp:
                 data['Phone No'] = ''.join(temp.split('\n')[1])
             if temp.find('Correspondent e-mail:') != -1:
                 data['Email'] = ''.join(temp.split('\n')[1])
