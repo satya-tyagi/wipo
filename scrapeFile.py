@@ -24,7 +24,7 @@ def main(id):
         'Cookie': '',
         'Host': 'www3.wipo.int',
         'Pragma': 'no-cache',
-        'Referer': 'https://www3.wipo.int/madrid/monitor/en/',
+        'Referer': 'https: // www3.wipo.int/madrid/monitor/en/',
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-origin',
