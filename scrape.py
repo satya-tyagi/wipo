@@ -34,7 +34,7 @@ def main(num):
     irnis = num
     data = {
         'IRN': irnis,
-        'Name & Address': 'test',
+        'Name & Address': '',
         'Notification Date': '',
         'Status': '',
         'Link': ''
