@@ -82,7 +82,7 @@ def main(id):
                 
         data = {
             'IRN': id,
-            'Name & Address': name,
+            'Name & Address': 'name',
             'Notification Date': date,
             'Status': '',
             'Link': link
